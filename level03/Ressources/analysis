@@ -1,0 +1,2 @@
+hexdump -C level03
+#On trouve en plein texte : /bin/env echo Exploit me"
