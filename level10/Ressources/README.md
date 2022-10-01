@@ -5,6 +5,12 @@ hexdump -C level10
 On trouve un appel a `access()` pour verifier si l'utilisateur a droit de faire `open`
 Ceci ouvre une vulnerabilite a une attaque de type TOC/TOU.
 
+On setup un fichier qu'on puisse lire:
+```
+chmod 777 .
+echo omae ha mou shindeiru > nani
+```
+
 On cree 2 boucles:
 
 ```sh
