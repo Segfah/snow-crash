@@ -1,6 +1,7 @@
 #include <unistd.h>
 #include <stdio.h>
 #include <string.h>
+#include <strings.h>
 #include <fcntl.h>
 
 
@@ -15,8 +16,8 @@ int main(int argc, char **argv)
 	read(fd, buf, 4096);
 	
 	printf("buf before %s\n", buf);
-
-	for (int i = 0; i < strlen(buf); i++) {
+	int i;
+	for (i = 0; i < strlen(buf); i++) {
 		buf[i] -= i;
 	}
 
