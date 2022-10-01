@@ -1,9 +1,23 @@
-Faire un nouveau fichier X.php
+l'executable lance le script de nom `level06.php`
 
-#X.php 
+
+
+```sh
+chmod +wr .
+rm -f level06.php
+```
+
+Faire un nouveau fichier level06.php
+
+#### ~/level06.php 
+```
 <?php
 echo exec("getflag")
 ?>
+```
 
--> level06 /tmp/X.php
+puis:
 
+```
+./level06
+```
