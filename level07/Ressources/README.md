@@ -9,6 +9,6 @@ hexdump -C level07
 -> LOGNAME=level07
 
 ```
-export LOGNAME="|getname"
+export LOGNAME="|getflag"
 ./level07
 ```
