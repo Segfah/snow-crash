@@ -8,4 +8,8 @@ Impossible de faire un copie du fcher ou de changer le nom, mais on peut faire u
 Il faut neanmoins que le lien ait un nom qui ne commence pas par `token`
 
 
-```ln -s token nottoken_link```
+```
+chmod +wr .
+ln -s token dont_say_the_t_word
+./level08 dont_say_the_t_word
+```
